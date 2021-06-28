@@ -10,6 +10,8 @@ type Recipe {
   ingredients: [String!]!
 }
 
+
+
 """
 Date custom scalar type
 """
@@ -36,4 +38,5 @@ type Subscription {
 }
 type Query {
   getUser(id: String): User
+  getUsers():[User]
 }
