@@ -34,3 +34,6 @@ input NewRecipeInput {
 type Subscription {
   recipeAdded: Recipe!
 }
+type Query {
+  getUser(id: String): User
+}
